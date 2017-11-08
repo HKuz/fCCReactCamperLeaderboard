@@ -1,0 +1,66 @@
+// Font Import
+@import url(https://fonts.googleapis.com/css?family=Inconsolata|PT+Sans);
+
+// Variables
+$forestGreen: #286610;
+$midnightBlue: #2F3559;
+$darkBrown: #594433;
+$white: #FFFFFF;
+
+$headerFonts: 'Inconsolata', Arial, sans-serif;
+$tableFonts: 'PT Sans', Arial, sans-serif;
+
+body {
+  font-family: $headerFonts;
+  background-color: $darkBrown;
+}
+
+#main {
+  font-size: 3em;
+  color: $white;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.table {
+  font-family: $tableFonts;
+  color: $forestGreen;
+  font-size: 1.5em;
+
+  th {
+    color: $white;
+    background-color: $forestGreen;
+  }
+
+  .title {
+    vertical-align: middle;
+  }
+
+  .numHead {
+    text-align: center;
+  }
+
+  .btn-default {
+    color: $white;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: $forestGreen;
+    border-color: $forestGreen;
+  }
+
+  img {
+    height: 50px;
+    width: 50px;
+    border: 2px solid $midnightBlue;
+  }
+
+  td {
+    background-color: $white;
+    border-bottom: 1px solid $forestGreen;
+  }
+
+  .number {
+    vertical-align: middle;
+    text-align: center;
+  }
+}
